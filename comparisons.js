@@ -62,7 +62,7 @@ console.log(4 < books);
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Explain. This explains that amount of friends is greater than the amount of siblings. In this case this would be true because the friends variable is assigned as 6 and the siblings variable is assigned as two making friends greater than siblings.
 
 var attendees = 9;
 var meals = 8;
