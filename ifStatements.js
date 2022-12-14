@@ -68,13 +68,8 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 2;
 var hasSauce = true;
 
-if (cupsOfFlour < 2 && hasSauce) {
-  console.log("I cannot make pizza")
-  } else if (cupsOfFlour >= 2 && hasSauce === false) {
-  console.log("I cannot make pizza")
-}
-else if (cupsOfFlour >= 2 && hasSauce) {
+if (cupsOfFlour >= 2 && hasSauce === true) {
   console.log("I can make pizza")
-} else if (cupsOfFlour >=2 && hasSauce) {
-  console.log("I can make pizza")
+  } else {
+  console.log("I cannot make pizza")
 }
