@@ -9,7 +9,7 @@ if (goodDrivingRecord === true && age >= 25) {
 } else if (goodDrivingRecord === true || age >= 25) {
   console.log("Car Rental Full Price");
   
-} else if (goodDrivingRecord === false && age <=24) {
+} else {
   console.log ("Car Rental needs a different applicant")
 }
 
